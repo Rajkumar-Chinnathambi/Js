@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function calci(operator,x=0,y=0) {
+            switch (operator) {
+                case '+':
+                    
+                    document.write(x+y);
+                    break;
+
+                case '-':
+                    document.write(x-y);
+                    break;
+                case '*':
+                    document.write(x*y);
+                    break;
+                case '/':
+                    document.write(x/y);
+                    break;
+                    
+            
+                default:
+                    document.write("Please Enter Correct Values");
+                    break;
+            }
+        }
+        calci('+');
+    </script>
+</body>
+</html>
